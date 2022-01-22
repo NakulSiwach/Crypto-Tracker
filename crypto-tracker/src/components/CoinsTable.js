@@ -27,7 +27,7 @@ const CoinsTable = () => {
         },
         fontFamily: "Montserrat",
       },
-    pagination: {
+      pagination: {
         "& .MuiPaginationItem-root": {
           color: "gold",
         },
@@ -69,7 +69,7 @@ const CoinsTable = () => {
     };
   return(
       <ThemeProvider theme={darkTheme}>
-        <Container style={{textAlign:"center",width:"90%"}} >
+        <Container style={{textAlign:"center",width:"100%"}} >
           <Typography variant='h4' style={{margin:18,fontFamily:"Monteserrat"}}>
             Cryptocurrency Prices by Market Cap
           </Typography>
@@ -77,7 +77,7 @@ const CoinsTable = () => {
           <TextField
             label="Search for any Crypto Currency u want.."
             variant="outlined"
-            style={{marginBottom:20, width:"40%", textAlign:"left"}}
+            style={{marginBottom:20, width:"100%", textAlign:"left"}}
             onChange={(e)=> setSearch(e.target.value)}
           />
 

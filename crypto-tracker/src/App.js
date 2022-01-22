@@ -13,6 +13,7 @@ import { makeStyles } from '@material-ui/core';
 const App = () => {
   const useStyles = makeStyles(()=>({
     App:{
+      backgroundImage:"url(https://wallpaperaccess.com/full/1567666.png)",
       backgroundColor:"#333333",
       color:"white",
       minHeight:"100vh",

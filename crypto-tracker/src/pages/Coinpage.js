@@ -43,8 +43,8 @@ const Coinpage = () => {
       flexDirection: "column",
       alignItems: "center",
       marginTop: 25,
-      borderRight: "2px solid grey",
-      borderLeft: "2px solid grey",
+      borderRight: "5px solid gold",
+      borderLeft: "5px solid gold",
 
 
     },
@@ -104,9 +104,7 @@ const Coinpage = () => {
 
         </div>
         <div>
-        <Typography variant='subtitle1' className={classes.description}>
-          {reactElement}
-        </Typography>
+
         <div className={classes.marketData} >
         <span style={{ display: "flex" }}>
             <Typography variant="h5" className={classes.heading}>
@@ -161,7 +159,11 @@ const Coinpage = () => {
             </Typography>
           </span>
 
+
         </div>
+        <Typography variant='subtitle1' className={classes.description}>
+          {reactElement}
+        </Typography>
 
         </div>
         </div>
